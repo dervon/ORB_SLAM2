@@ -206,6 +206,7 @@ For a stereo input from topic `/camera/left/image_raw` and `/camera/right/image_
   
 **Example**: Download a rosbag (e.g. V1_01_easy.bag) from the EuRoC dataset (http://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets). Open 3 tabs on the terminal and run the following command at each tab:
   ```
+  export ROS_PACKAGE_PATH=${ROS_PACKAGE_PATH}:/home/ubuntu/ORB_SLAM2/Examples/ROS
   roscore
   ```
   
